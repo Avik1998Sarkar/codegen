@@ -170,6 +170,8 @@ public class CodeGenService {
                 You are an expert Spring Boot developer.
                 Generate only a @SpringBootApplication class.
                 Only take the rootPackage variable from this json schema: %s
+                Application class name should be ProjectApplication.
+                it should be public class ProjectApplication only
                 Only provide the code and nothing else.
                 Also make sure to import all the necessary packages.
                 Include the package name like mentioned on rootPackage variable.
